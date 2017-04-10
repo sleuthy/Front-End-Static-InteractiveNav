@@ -1,0 +1,49 @@
+body {
+	background: darkgrey;
+	color: white;
+	font-family: arial;
+	font-size: 14pt;
+}
+
+h1 {
+	text-align: center;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+	background: teal;
+	color: white;
+	border: 1px solid white;
+	text-decoration: none;
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar a {
+	padding: 25px;
+}
+
+.navbar li {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.navbar li a:link, li a:visited {
+	text-decoration: inherit;
+	color: inherit;
+	text-align: center;
+	display: block;
+}
+
+.navbar li a:hover {
+	color: #000;
+	background: salmon;
+}
+
+.navbar li a:active {
+	width: 810px;
+}
